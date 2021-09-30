@@ -1,0 +1,103 @@
+.hero1{
+display: grid;
+background-color: #da24f0;
+height: 50ch;
+padding: 0 2rem;
+color: white;
+}
+
+.hero1-premium{
+margin: auto;
+}
+
+.hero1-h1{
+width: auto;
+font-size: 60px;
+}
+.hero1-h2{
+width: auto;
+font-size: 31px;
+line-height:3rem
+}
+
+.hero1-btn{
+border: none;
+padding: 1rem;
+color:white;
+background-color: blueviolet;
+cursor: pointer;
+width:42ch;
+border-radius: 23px;
+}
+    
+.hero2{
+display: grid;
+background-color: #46f024;
+height: 50ch;
+padding: 0 2rem;
+color: #2427f0;
+}
+
+.hero2-premium{
+margin: auto;
+}
+
+.hero2-h1{
+width: auto;
+font-size: 60px;
+}
+.hero2-h2{
+width: auto;
+font-size: 31px;
+line-height:3rem
+}
+
+.hero2-btn{
+border: none;
+padding: 1rem;
+color:white;
+background-color: #2427f0;
+cursor: pointer;
+width:42ch;
+border-radius: 23px;
+}
+    
+/*@media starts*/
+@media(max-width:768px){
+
+    .hero1-premium{
+        text-align: center;
+    }
+    .hero1-h1{
+        font-size: 24px;
+        text-align: center;
+    }
+    .hero1-h2{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .hero1-btn{
+        width: 27ch;
+    }
+
+    .hero2-premium{
+        text-align: center;
+    }
+    .hero2-h1{
+        font-size: 24px;
+        text-align: center;
+    }
+    .hero2-h2{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .hero2-btn{
+        width: 27ch;
+    }
+}
+        
+
+    
+       

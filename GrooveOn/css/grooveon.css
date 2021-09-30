@@ -1,0 +1,54 @@
+.wrapper{
+display: grid;
+background:linear-gradient(to bottom, #9400d399 0%, #4b008299), url(../img/concert.png) no-repeat center center;
+height: 100%; 
+background-size: cover;
+}
+    
+
+    
+.container-box{
+margin: auto;
+}
+
+@media(max-width:768px){
+    .logo{
+        display: grid;
+        place-items: center;
+    }
+.logo img{
+height:  24px;
+}
+}
+    
+    
+    
+.header-text{
+text-align: center;
+color: #fff;
+}
+
+
+.sign-up-btn{
+border-width: 0;
+border: solid #7827DF 4px;
+background: transparent;
+color: #fff;
+padding: 1em;
+width: 100%;
+margin-bottom: 2em;
+font-size: 24px;
+outline: none;
+cursor: pointer;
+}
+    
+.sign-in-btn{
+border-width: 0;
+border: solid #BF20DF 4px;
+background: transparent;
+color: #fff;
+padding: 1em;
+width: 100%;
+font-size: 24px;
+outline: none;
+cursor: pointer;}
