@@ -51,6 +51,7 @@ text-align: center;
 
 .flex-footer{
 display: flex;
+ place-content:center;
 }
 
 .footer-tablebox{
