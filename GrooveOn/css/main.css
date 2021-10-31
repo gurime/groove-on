@@ -97,8 +97,24 @@ cursor: pointer
 
 @media(max-width:768px){
 .navbar{flex-direction:column;}
-}
 
+
+.flex-footer{
+    flex-direction: column;
+    }
+    .footer-tablebox{
+    border: none;
+    border-bottom: solid 1px #fff;
+    margin-bottom: 1em;
+    width: 100%;
+    }
+}
+    @media(max-width:280px){
+    .navlinks a{
+        font-size: 10px;
+    }
+   
+    }
 
 
 
